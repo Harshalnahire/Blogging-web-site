@@ -14,7 +14,7 @@ app.use(express.json());
 app.use("/images", express.static(path.join(__dirname, "/images")));
 
 mongoose
-  .connect("mongodb+srv://teMiniProject:custompassword123@freecodecampnodejmongoo.hq7hs.mongodb.net/BlogBackend?retryWrites=true&w=majority", {
+  .connect(process.env.MONGO_URL, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true,
