@@ -1,3 +1,4 @@
+import React from 'react';
 import { useContext } from "react";
 import { Link } from "react-router-dom";
 import { Context } from "../../context/Context";
@@ -13,7 +14,8 @@ export default function TopBar() {
   return (
     <div className="top">
       <div className="topLeft">
-        <h1>WebBlog</h1>
+        <h1>BLOGS</h1>
+        
       </div>
       <div className="topCenter">
         <ul className="topList">

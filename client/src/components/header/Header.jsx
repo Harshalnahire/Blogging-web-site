@@ -5,11 +5,11 @@ import carouselImage2 from "./../../assets/Carousel-2.jpg";
 export default function Header() {
   return (
     <div>
-     <div className="container">
+     <div style={{height:"30px" }}>
      <Carousel fade>
         <Carousel.Item>
           <img
-            className="d-block w-50"
+            className="d-block w-100"
              src={carouselImage1}
             alt="First slide"
           />
@@ -20,7 +20,7 @@ export default function Header() {
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-block w-50"
+            className="d-block w-100"
              src={carouselImage2}
             alt="Second slide"
           />
@@ -31,8 +31,8 @@ export default function Header() {
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-block w-50"
-            // src={carouselImage1}
+            className="d-block w-100"
+             src={carouselImage1}
             alt="Third slide"
           />
 
