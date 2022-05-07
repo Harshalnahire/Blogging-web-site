@@ -10,7 +10,7 @@ export default function Header() {
         <Carousel.Item>
           <img
             className="d-block w-50"
-            // src={carouselImage1}
+             src={carouselImage1}
             alt="First slide"
           />
           <Carousel.Caption>
@@ -21,7 +21,7 @@ export default function Header() {
         <Carousel.Item>
           <img
             className="d-block w-50"
-            // src={carouselImage2}
+             src={carouselImage2}
             alt="Second slide"
           />
           <Carousel.Caption>
